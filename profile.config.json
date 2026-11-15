@@ -1,0 +1,63 @@
+{
+  "username": "ratman-bit",
+  "name": "WatchoDi",
+  "monogram": "W",
+  "greeting": "Hey, I'm",
+  "tagline": "Reverse engineer · Unity IL2CPP · .NET internals",
+  "glance": { "icon": "bolt", "text": "Building Rewind" },
+  "timezone": "Europe/Paris",
+
+  "theme": {
+    "seed": "#00BFA5",
+    "variant": "tonalSpot",
+    "contrast": 0
+  },
+
+  "heroChips": [
+    { "icon": "auto_awesome", "label": "Working with Claude Mythos" },
+    { "icon": "code", "label": "C# · .NET · Unity" }
+  ],
+
+  "quickSettings": {
+    "slider": { "icon": "lightbulb", "label": "Curiosity", "value": 0.9, "valueLabel": "Maxed out" },
+    "tiles": [
+      { "icon": "memory", "label": "Reverse engineering", "state": "Always on", "active": true },
+      { "icon": "deployed_code", "label": "IL2CPP → C#", "state": "Decompiling", "active": true },
+      { "icon": "auto_awesome", "label": "Claude Mythos", "state": "Paired", "active": true },
+      { "icon": "terminal", "label": "C# / .NET", "state": "Fluent", "active": true },
+      { "icon": "public", "label": "Open source", "state": "{repos} public repo{reposPlural}", "active": true },
+      { "icon": "do_not_disturb_on", "label": "Do not disturb", "state": "Off · PRs welcome", "active": false }
+    ]
+  },
+
+  "featured": {
+    "repo": "Rewind-IL2CPP-Decompiler",
+    "title": "Rewind",
+    "from": "IL2CPP",
+    "to": "C#",
+    "progress": 0.64
+  },
+
+  "toolbox": {
+    "title": "Toolbox",
+    "chips": [
+      { "icon": "code", "label": "C#", "selected": true },
+      { "icon": "terminal", "label": ".NET", "selected": true },
+      { "icon": "deployed_code", "label": "Unity", "selected": true },
+      { "icon": "memory", "label": "IL2CPP", "selected": true },
+      { "icon": "bug_report", "label": "Reverse engineering" },
+      { "icon": "book", "label": "Decompilation" },
+      { "icon": "auto_awesome", "label": "Claude" }
+    ]
+  },
+
+  "languages": {
+    "exclude": ["Standard ML"],
+    "max": 5
+  },
+
+  "buttons": [
+    { "id": "follow", "icon": "person_add", "label": "Follow @{username}", "href": "https://github.com/{username}", "style": "filled" },
+    { "id": "star", "icon": "star", "label": "Star Rewind", "href": "https://github.com/{username}/Rewind-IL2CPP-Decompiler", "style": "tonal" }
+  ]
+}
