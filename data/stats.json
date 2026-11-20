@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T13:18:06.729Z",
+  "fetchedAt": "2026-11-20T12:59:23.923Z",
   "login": "ratman-bit",
   "name": "WatchoDi",
   "publicRepos": 2,
@@ -7,18 +7,14 @@
   "followers": 0,
   "stars": 36,
   "languages": {
+    "JavaScript": 55177,
     "Standard ML": 4834703,
     "C#": 2865116,
-    "PowerShell": 6923,
-    "JavaScript": 55177
+    "PowerShell": 6923
   },
   "contributions": {
     "total": 126,
     "last7": [
-      {
-        "date": "2026-11-13",
-        "contributionCount": 0
-      },
       {
         "date": "2026-11-14",
         "contributionCount": 0
@@ -42,16 +38,20 @@
       {
         "date": "2026-11-19",
         "contributionCount": 0
+      },
+      {
+        "date": "2026-11-20",
+        "contributionCount": 0
       }
     ],
-    "streak": 4
+    "streak": 0
   },
   "featured": {
     "name": "Rewind-IL2CPP-Decompiler",
     "fullName": "ratman-bit/Rewind-IL2CPP-Decompiler",
     "description": "Rewind: a Unity IL2CPP decompiler that rebuilds .NET assemblies with recovered method bodies and C# source from standard-format IL2CPP builds.",
     "stars": 35,
-    "forks": 0,
+    "forks": 2,
     "language": "Standard ML",
     "url": "https://github.com/ratman-bit/Rewind-IL2CPP-Decompiler"
   }
